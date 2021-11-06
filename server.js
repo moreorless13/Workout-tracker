@@ -25,6 +25,9 @@ mongoose.connect(
         useFindAndModify: false 
     }
 );
+
+app.use(require("./routes/"));
+
 app.listen(PORT, () => {
     console.log(`App is running on http://localhost:${PORT}`)
 });
