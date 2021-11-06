@@ -9,10 +9,7 @@ const ExerciseSchema = new Schema({
     sets: Number,
     reps: Number,
     duration: Number,
-    date: {
-        type: Date,
-        default: Date.now
-    }
+    
 })
 
 const Exercise = mongoose.model("Exercise", ExerciseSchema);
