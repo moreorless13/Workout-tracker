@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/moreorless13/Workout-tracker/issues"
   },
-  "homepage": "https://github.com/moreorless13/Workout-tracker#readme"
+  "homepage": "https://github.com/moreorless13/Workout-tracker#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  }
 }
