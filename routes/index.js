@@ -1,13 +1,6 @@
 const router = require('express').Router();
 const db = require('../models');
 
-
-// db.Workout.find({}).then(function(res) {
-//     if (res.length === 0){
-//         require('../seeders/seed.js');
-//     }
-// });
-
 router.get('/api/workouts', (req, res) => {
     db.Workout.find({})
         .populate("exercises")
